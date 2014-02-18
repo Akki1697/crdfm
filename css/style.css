@@ -105,10 +105,12 @@ line-height: 90px;
 height: 90px;
 display: block;
 font-family: "hevetica";
+text-align: center;
 }
 
 
 nav ul li{
+	list-style: none;
 	vertical-align: top;
 	width: 33%;
 	/*display: inline-block;*/
