@@ -1,23 +1,16 @@
 
 function sizeScreen(){
-	alto = $(window).height();
-	ancho = $(window).width();
+	var alto = $(window).height();
+	var ancho = $(window).width();
 
-	//$("section#debug").html("Ancho: "+ancho+" Alto:"+alto);
-	
-	$("#container").css({"height":alto+"px"});
+	$("section#debug").html("Ancho: "+ancho+" Alto:"+alto);	
+	$("#container").css({"height":alto+"px"});	
 }
 
-$(window).resize(function(){
-	sizeScreen();
-});
+$(window).resize(function(){ sizeScreen(); });
 	
 
 
 $(document).on("ready",function(){
-
-	
-
-sizeScreen();
-
+	sizeScreen();
 });
