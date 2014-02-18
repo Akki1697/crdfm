@@ -111,7 +111,8 @@ font-family: "hevetica";
 nav ul li{
 	vertical-align: top;
 	width: 33%;
-	display: inline-block;
+	/*display: inline-block;*/
+	float: left;
 	text-align: center;
 	line-height: 45px;
 }
