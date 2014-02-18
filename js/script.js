@@ -3,7 +3,7 @@ function sizeScreen(){
 	alto = $(window).height();
 	ancho = $(window).width();
 
-	$("section#debug").html("Ancho: "+ancho+" Alto:"+alto);
+	//$("section#debug").html("Ancho: "+ancho+" Alto:"+alto);
 	
 	$("#container").css({"height":alto+"px"});
 }

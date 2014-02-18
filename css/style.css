@@ -26,7 +26,6 @@ section#debug{
 	margin: 0px auto;
 }
 #container{
-	border: 1px solid #f00;
 	width: 1024px;
 	background: #fff;
 	margin: 0px auto;
@@ -80,7 +79,7 @@ nav{
 	background: #ebebeb;
 	position: fixed;
 	bottom: 0px;
-	height: 45px;
+	height: 90px;
 }
 
 nav ul{
@@ -92,8 +91,8 @@ nav ul{
 nav ul li a{
 color: #252525;
 font-size: 14px;
-line-height: 45px;
-height: 45px;
+line-height: 90px;
+height: 90px;
 display: block;
 font-family: Verdana;
 }
@@ -185,6 +184,10 @@ hr{
 	}
 
 	nav{
+		width: 99%;
+	}
+
+	section#debug{
 		width: 99%;
 	}
 
