@@ -1,0 +1,191 @@
+/* ============================== Estilos globales ===============================*/
+body{
+	font-family: Verdana;
+	color: #444444;
+	font-size: 14px;
+}
+
+p{
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+a{ 
+	text-decoration: none;
+	color: #02a1bf;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: #02a1bf;
+}
+
+/* ============================== Estilos principales desarrollo ===============================*/
+section#debug{
+	width: 1024px;
+	margin: 0px auto;
+}
+#container{
+	border: 1px solid #f00;
+	width: 1024px;
+	background: #fff;
+	margin: 0px auto;
+}
+
+header{
+	width: 100%;
+	min-height: 104px;
+	margin: 0px auto;
+	padding: 0px;
+	border: 1px solid #f00;
+}
+
+
+
+
+.grid1{
+	width: 100%;
+	min-height: 30px;
+	border: 1px solid #f00;
+	vertical-align: top;
+	margin: 10px auto;
+}
+.grid2{
+	width: 49.5%;
+	min-height: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px auto;
+	border: 1px solid #f00;
+}
+.grid3{
+	width: 32.7%;
+	min-height: 30px;
+	border: 1px solid #f00;
+	display: inline-block;
+	vertical-align: top;
+}
+.grid4{
+	width: 24.4%;
+	min-height: 30px;
+	border: 1px solid #f00;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+nav{
+	width: 1024px;
+	margin: 0px auto;
+	background: #ebebeb;
+	position: fixed;
+	bottom: 0px;
+	height: 45px;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+nav ul li a{
+color: #252525;
+font-size: 14px;
+line-height: 45px;
+height: 45px;
+display: block;
+font-family: Verdana;
+}
+
+
+nav ul li{
+	border: 1px solid #f00;
+	vertical-align: top;
+	width: 32%;
+	display: inline-block;
+	text-align: center;
+	line-height: 45px;
+	background: url(../images/bg_nav.jpg);
+}
+
+/*nav ul li:first-child{
+	border-radius: 6px 0px 0px 6px;
+}*/
+
+
+.mod1{
+	width: 100%;
+	border: 1px solid #f00;
+	height: 157px;
+	vertical-align: top;
+	text-align: center;
+}
+.mod2{
+	width: 49.4%;
+	border: 1px solid #f00;
+	height: 157px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.mod3{
+	width: 32.6%;
+	height: 157px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+
+footer{
+	width: 100%;
+	margin: 10px auto;
+	border: 1px solid #f00;
+	height: 90px;
+	background: #f5f5f5;
+}
+
+.separator{
+	background: url(../images/separator.JPG);
+	width: 490px;
+	height: 5px;
+	margin: 0px auto;
+}
+
+.services ul li{
+	list-style:square url(../images/check.png);
+	text-align: left;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #0b4b8b;
+	font-style: italic;
+	font-weight: bold;
+}
+
+hr{
+	height: 11px;
+	width: 100%;
+	border: none;
+	background: url(../images/bg-hr.jpg);
+	margin: 10px 0px;
+	border-radius: 3px;
+}
+
+
+/*================================= estilos para los media queries de la aplicacion ================================*/
+/*================================= estilo para resolucion de 1024px ===============================================*/
+/*==================================================================================================================*/
+
+@media screen and (max-width: 1024px){
+	
+	#container{
+		width: 99%;
+		margin: 0px auto;
+	}
+
+	nav{
+		width: 99%;
+	}
+
+} 
