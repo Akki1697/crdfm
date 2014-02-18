@@ -230,9 +230,12 @@ hr{
 /*==================================================================================================================*/
 
 @media screen and (max-width: 386px){
+	nav ul li{
+		width: 31%;
+	}
 
 	nav ul li a{
-		font-size: 16px;	
+		font-size: 14px;	
 	}
 }
 
@@ -245,6 +248,7 @@ hr{
 	nav ul li a{
 		font-size: 12px;
 		font-family: verdana;
+
 	}
 }
 
