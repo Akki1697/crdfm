@@ -115,7 +115,6 @@ nav ul li{
 	width: 33%;
 	/*display: inline-block;*/
 	float: left;
-	text-align: center;
 	line-height: 45px;
 }
 nav ul li:nth-child(1){
@@ -223,7 +222,7 @@ hr{
 
 @media screen and (max-width: 601px){
 	nav ul li{
-		width: 32.7%;
+		width: 32.9%;
 		margin: 0px auto;
 	}
 }
@@ -233,9 +232,6 @@ hr{
 /*==================================================================================================================*/
 
 @media screen and (max-width: 386px){
-	nav ul li{
-		width: 31%;
-	}
 
 	nav ul li a{
 		font-size: 14px;	
