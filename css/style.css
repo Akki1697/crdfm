@@ -84,10 +84,11 @@ header{
 nav{
 	width: 1024px;
 	margin: 0px auto;
-	background: #f37020;
+	/*background: #f37020;*/
+	background: #ff8800;
 	position: fixed;
 	bottom: 0px;
-	min-height: 90px;
+	height: 48px;
 	border-top: 5px solid #e76a1d;
 }
 
@@ -104,7 +105,7 @@ font-size: 18px;
 display: block;
 font-family: "hevetica";
 text-align: center;
-margin: 10px auto 0px auto;
+margin: 0px auto 0px auto;
 }
 
 nav ul li a img{
