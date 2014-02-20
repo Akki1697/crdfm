@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5,h6{
 section#debug{
 	width: 1024px;
 	margin: 0px auto;
+	font-size: 12px;
 }
 #container{
 	width: 1024px;
@@ -41,10 +42,11 @@ section#debug{
 
 header{
 	width: 100%;
-	min-height: 104px;
+	height: 48px;
+	background: #ff8800;
 	margin: 0px auto;
 	padding: 0px;
-	border: 1px solid #f00;
+	border-bottom: 5px solid #e76a1d;
 }
 
 
