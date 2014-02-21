@@ -29,6 +29,16 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* ============================== Estilos principales desarrollo ===============================*/
+
+#cont-dvLoading{
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+	background: rgba(255,255,255,0.9);
+}
+
 section#debug{
 	width: 1024px;
 	margin: 0px auto;
