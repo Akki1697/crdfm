@@ -39,6 +39,10 @@ h1,h2,h3,h4,h5,h6{
 	background: rgba(255,255,255,0.9);
 }
 
+#cont-dvLoading img{
+	margin: 320px 0px 0px 0px;
+}
+
 section#debug{
 	width: 1024px;
 	margin: 0px auto;
