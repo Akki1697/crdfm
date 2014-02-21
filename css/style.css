@@ -57,6 +57,31 @@ h1,h2,h3,h4,h5,h6{
 	margin: 320px 0px 0px 0px;
 }
 
+section#redes{
+	width: 170px;
+	height: 48px;
+	float: right;
+}
+
+section#redes a{
+	width: 48px;
+	height: 48px;
+	display: block;
+	margin: 0px auto;
+}
+
+section#redes a#facebook{
+	background: url(../images/ic_action_facebook.png) no-repeat;
+}
+
+section#redes a#twitter{
+	background: url(../images/ic_action_twitter.png) no-repeat;
+}
+
+section#redes a#web{
+	background: url(../images/ic_action_browser.png) no-repeat;
+}
+
 section#debug{
 	width: 1024px;
 	margin: 0px auto;
@@ -96,11 +121,12 @@ header{
 	margin: 0px auto;
 }
 .grid3{
-	width: 32.7%;
+	width: 33%;
 	min-height: 30px;
-	border: 1px solid #f00;
 	display: inline-block;
-	vertical-align: top;
+	/*vertical-align: top;*/
+	float: left;
+
 }
 .grid4{
 	width: 24.4%;
@@ -286,6 +312,18 @@ body.noticias #container iframe{
 	#logo a{
 		background: url(../images/ic_action_home_32.png) no-repeat 50% 50%;
 	}
+
+	section#redes a#facebook{
+	background: url(../images/ic_action_facebook_32.png) no-repeat 50% 50%;
+	}
+
+	section#redes a#twitter{
+	background: url(../images/ic_action_twitter_32.png) no-repeat 50% 50%;
+	}
+
+	section#redes a#web{
+	background: url(../images/ic_action_browser_32.png) no-repeat 50% 50%;
+}
 
 	nav ul li a{
 		font-size: 14px;	
