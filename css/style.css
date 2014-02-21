@@ -309,7 +309,7 @@ body.noticias #container iframe{
 
 @media screen and (max-width: 386px){
 
-	#logo a{
+/*	#logo a{
 		background: url(../images/ic_action_home_32.png) no-repeat 50% 50%;
 	}
 
@@ -319,7 +319,7 @@ body.noticias #container iframe{
 
 	section#redes a#twitter{
 	background: url(../images/ic_action_twitter_32.png) no-repeat 50% 50%;
-	}
+	}*/
 
 	section#redes a#web{
 	background: url(../images/ic_action_browser_32.png) no-repeat 50% 50%;
@@ -329,7 +329,7 @@ body.noticias #container iframe{
 		font-size: 14px;	
 	}
 
-	nav ul li a#noticias{
+/*	nav ul li a#noticias{
 		background: url(../images/ic_action_send_32.png) no-repeat 50% 50%;
 	}
 	nav ul li a#canal{
@@ -337,7 +337,7 @@ body.noticias #container iframe{
 	}
 	nav ul li a#telefono{
 		background: url(../images/ic_action_call_32.png) no-repeat 50% 50%;
-	}
+	}*/
 
 }
 
