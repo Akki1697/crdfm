@@ -30,6 +30,20 @@ h1,h2,h3,h4,h5,h6{
 
 /* ============================== Estilos principales desarrollo ===============================*/
 
+#logo{
+	
+	width: 48px;
+	height: 48px;
+	margin: 0px 0px 0px 0px;
+}
+
+#logo a{
+	height: 48px;
+	width: 48px;
+	background: url(../images/ic_action_home.png) no-repeat;
+	display: block;
+}
+
 #cont-dvLoading{
 	width: 100%;
 	min-height: 100%;
@@ -74,12 +88,12 @@ header{
 	margin: 10px auto;
 }
 .grid2{
-	width: 49.5%;
+	width: 50%;
 	min-height: 30px;
-	display: inline-block;
+	/*display: inline-block;*/
+	float: left;
 	vertical-align: top;
 	margin: 0px auto;
-	border: 1px solid #f00;
 }
 .grid3{
 	width: 32.7%;
@@ -268,6 +282,10 @@ body.noticias #container iframe{
 /*==================================================================================================================*/
 
 @media screen and (max-width: 386px){
+
+	#logo a{
+		background: url(../images/ic_action_home_32.png) no-repeat 50% 50%;
+	}
 
 	nav ul li a{
 		font-size: 14px;	
