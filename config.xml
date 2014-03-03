@@ -9,11 +9,32 @@
 
     <name>crdfm</name>
     <icon src="images/icon.png" gap:platform="android" gap:density="ldpi" width="57" height="57"/>
+    <gap:splash src="images/splash.jpg" gap:platform="android" gap:density="ldpi" />
+    <gap:platform name="ios" />
     <gap:platform name="android" />
     <preference name="phonegap-version" value="3.1.0" />
     <preference name="orientation" value="portrait" />
-    <preference name="LoadingDialog" value="Carganado Aplicación."/>
+    <preference name="splash-screen-duration" value="5000"/>
+    <preference name="fullscreen" value="false" />
+    <preference name="target-device" value="universal" />
+    <preference name="PageLength" value="0"/>
+
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="UIWebViewBounce" value="true" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="EnableLocation" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" /> 
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
     <preference name="KeepRunning" value="true"/>
+    <preference name="LoadingDialog" value="Carganado Aplicación."/>
+    <preference name="load-url-timeout" value="50000" />
 
 
     <description>

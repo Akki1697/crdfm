@@ -16,11 +16,21 @@ function sizeScreen(){
 
 $(window).resize(function(){ sizeScreen(); });
 
-$(window).load(function(){
-  	$('#cont-dvLoading').fadeOut(400);
-});
+
 
 
 $(document).on("ready",function(){
 	sizeScreen();
+
+	if ($("body#home").length) {
+		$('#cont-dvLoading').css({"display":"none"});
+	}else{
+		$(window).load(function(){
+  			$('#cont-dvLoading').fadeOut(400);
+		});
+	};
+
+	
+
+
 });
