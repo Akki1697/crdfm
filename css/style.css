@@ -342,15 +342,27 @@ article form .campo label{
 	color: #A59F9F;
 }
 
+article form .campo input:focus{
+	outline: none;
+	border: 1px solid #ff8800;
+}
+
 article form .campo input{
 	width: 100%;
 	min-height: 30px;
 	margin: 10px 0px 10px 0px;
+	border: 1px solid #c1c1c1;
+}
+
+article form .campo textarea:focus{
+	outline: none;
+	border: 1px solid #ff8800;
 }
 
 article form .campo textarea{
 	width: 100%;
 	margin: 10px 0px 0px 0px;
+	border: 1px solid #c1c1c1;
 }
 
 article form .campo input[type="file"]{
