@@ -14,7 +14,7 @@
     <gap:platform name="android" />
     <preference name="phonegap-version" value="3.1.0" />
     <preference name="orientation" value="portrait" />
-    <preference name="splash-screen-duration" value="3000"/>
+    <preference name="auto-hide-splash-screen" value="true" />
     <preference name="fullscreen" value="false" />
     <preference name="target-device" value="universal" />
     <preference name="PageLength" value="0"/>
