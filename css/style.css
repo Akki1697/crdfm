@@ -132,6 +132,7 @@ header{
 #envios{
 	width: 90%;
 	height: 390px;
+	margin: 25px auto 0px auto;
 }
 
 .envioText{

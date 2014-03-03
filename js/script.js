@@ -10,8 +10,8 @@ function sizeScreen(){
 	
 	// ======== margin top del 10% de la altura para envios =============== //
 		
-	var margenEnvios = (alto*10)/100;
-	$("#envios").css({"margin": margenEnvios+"px auto 0px auto"});
+	//var margenEnvios = (alto*10)/100;
+	//$("#envios").css({"margin": margenEnvios+"px auto 0px auto"});
 }
 
 $(window).resize(function(){ sizeScreen(); });
