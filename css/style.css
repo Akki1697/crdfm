@@ -63,7 +63,7 @@ font-family: verdana;
 }
 
 #contAudio audio{
-	margin: 8px auto;
+	margin: 0px auto;
 	display: block;
 	width: 48px;
 }
