@@ -41,7 +41,7 @@ font-family: verdana;
 }
 
 #logoCenter{
-	margin: 35px auto 0px auto;
+	margin: 25px auto 0px auto;
 	width: 450px;
 	transition: 1s all;
 }
@@ -53,17 +53,17 @@ font-family: verdana;
 }
 
 #contAudio{
-	width: 48px;
-	height: 45px;
+	width: 60px;
+	height: 60px;
 	padding: 10px;
-	border-radius: 60px;
+	border-radius: 45px;
 	border: 3px solid #2c8f4c;
 	background: #177034;
 	margin: 0px auto;
 }
 
 #contAudio audio{
-	margin: 0px auto;
+	margin: 13px auto;
 	display: block;
 	width: 48px;
 }
