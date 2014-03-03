@@ -33,10 +33,32 @@ h1,h2,h3,h4,h5,h6{
 /* ============================== Estilos principales desarrollo ===============================*/
 
 #logo{
-	
 	width: 48px;
 	height: 48px;
 	margin: 0px 0px 0px 0px;
+}
+
+#logoCenter{
+	margin: 35px auto 20px auto;
+	width: 450px;
+	transition: 1s all;
+}
+
+#logoCenter img{
+	width: 90%;
+	display: block;
+	margin: 0px auto;
+}
+
+#contAudio{
+	width: 400px;
+	margin: 0px auto;
+}
+
+audio{
+	margin: 0px auto;
+	display: block;
+	width: 100%;
 }
 
 #logo a{
@@ -340,6 +362,15 @@ body.noticias #container iframe{
 	}
 }
 
+
+@media screen and (max-width: 450px){
+	#logoCenter{
+		width: 400px;
+		transition: 1s all;
+	}
+}
+
+
 /*================================= estilo para resolucion de 435px ===============================================*/
 /*==================================================================================================================*/
 
@@ -348,6 +379,17 @@ body.noticias #container iframe{
 	.envioText{
 		font-size: 22px;
 	}
+
+	#logoCenter{
+		width: 100%;
+		transition: 1s all;
+	}
+
+	#contAudio{
+		width: 100%;
+	}
+
+
 }
 
 
