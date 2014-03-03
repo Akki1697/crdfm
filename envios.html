@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Coomuldesa Radio</title>
+	<title>Envios</title>
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -10,11 +10,10 @@
 	<script src="js/script.js"></script>
 </head>
 <body>
-	<!-- changes -->
-	<div id="cont-dvLoading">
-		<img src="images/ajax-loader.gif" alt="Loading..." title="Loading...">
-	</div>
 	<div id="container">
+		<div id="cont-dvLoading">
+			<img src="images/ajax-loader.gif" alt="Loading..." title="Loading...">
+		</div>
 		<section id="debug"></section>
 		<header>
 			<div class="grid2">
@@ -36,12 +35,53 @@
 				</section>
 			</div>
 		</header>
-
+		
 		<article>
-			
+			<div id="envios">
+				<div class="seccionesEnvio">
+					<a href="envioImagen.html">
+						<div class="grid2">
+							<img src="images/image-holder-icon-72.png" alt="" width="72px">
+						</div>
+						<div class="grid2">
+							<div class="envioText">
+								Enviar Imagen
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="seccionesEnvio">
+					<a href="envioAudio.html">
+						<div class="grid2">
+							<img src="images/audio-icon-72.png" alt="" width="72px">
+						</div>
+						<div class="grid2">
+								<div class="envioText">
+									Enviar Audio
+								</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="seccionesEnvio">
+					<a href="envioVideo.html">
+						<div class="grid2">
+							<img src="images/clapboard-icon-72.png" alt="" width="72px">
+						</div>
+						<div class="grid2">
+							<div class="envioText">
+							 	Enviar Video
+							</div>
+						</div>
+					</a>
+				</div>
+
+				
+			</div>
 		</article>
 
-		<nav>
+		<nav>	
 			<ul>
 				<li>
 					<a href="envios.html" id="noticias"></a>

@@ -7,6 +7,11 @@ function sizeScreen(){
 	//$("section#debug").html("Ancho: "+ancho+" Alto:"+alto);	
 	$("#container").css({"height":alto+"px"});
 	$("body.noticias #container iframe").css({"width":anchoContainer-10+"px","height":alto-150+"px"})
+	
+	// ======== margin top del 10% de la altura para envios =============== //
+		
+	var margenEnvios = (alto*10)/100;
+	$("#envios").css({"margin": margenEnvios+"px auto 0px auto"});
 }
 
 $(window).resize(function(){ sizeScreen(); });
